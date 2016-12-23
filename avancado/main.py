@@ -81,6 +81,10 @@ perc_train = 0.66
 
 results = []
 
+#################################
+####### EXPERIMENTS #############
+#################################
+
 for clf, clf_name in (
 	(MultinomialNB(alpha=0.01),'MultinomialNB'),
 	(KNeighborsClassifier(n_neighbors=10),'KNN'),
